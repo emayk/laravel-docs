@@ -55,7 +55,7 @@ function menu()
 
     return str_replace(
         ['/docs', '<ul>'],
-        [null, '<ul class="nav nav-pills nav-stacked">'],
+        [null, '<ul class="menulist">'],
         $markdownExtraParser->transformMarkdown(file_get_contents(config('doc.content').'documentation.md')));
 }
 

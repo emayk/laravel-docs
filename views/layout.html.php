@@ -3,8 +3,9 @@
 <head>
     <title>Laravel Docs</title>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
-</head>
+    <style>
+        .menulist{list-style: none; padding: 0 0 0 10px;margin: 0 0 10px 0;}
+    </style>
 <body>
 
 <section>
